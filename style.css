@@ -15,32 +15,55 @@ html, body {
 
 .Menu-Bar{
   position: sticky;
+  display: flex;
+  order: 5;
+  justify-content: center;
+  background-color: #78CDD7;
 
 }
 .Menu-Bar a {
   display: block;
   text-align: center;
   padding: 16px;
-  transition: all 0.3s ease;
+  width: 10%;
+  height: 10%;
   color: white;
   font-size: 20px;
+  z-index: 1000;
 }
 
 
-.Menu-Bar a:hover {
-  background-color: #000;
+.Github:hover {
+  background-color: #3B5998;
+  opacity: 70%;
+}
+
+.Instagram:hover {
+  background-color: #000000;
+  opacity: 70%;
+}
+
+.Contact:hover {
+  background-color: #0D5C63;
   opacity: 70%;
 }
 
 .Github {
-  background: #3B5998;
+  background: #44A1A0;
   color: white;
 }
 
 .Instagram {
-  background: #55ACEE;
+  background: #247B7B;
   color: white;
 }
+
+.Contact{
+  background: #44A1A0;
+  color: white;
+}
+
+/* header */
 
 header{
   background-image: url("C:/Users/Gebruiker/Documents/coderclass/HTML2V2/IMG_5851.JPG");
@@ -48,18 +71,29 @@ header{
   height: 100vh;
   background-size: cover;
   background-position: center top;
-  text-align: center;
+  text-align: left;
 
 
 }
 
 /* titels voor articles: */
-h1{
+ h1{
   font-size: 50px;
   font-family: roboto;
   padding-top: 10vh;
   color: black;
   text-decoration: underline;
+}
+
+/* titel website */
+
+h2{
+ font-size: 70px;
+ font-family: roboto;
+ padding-top: 10vh;
+ color: white;
+ padding-left: 10%;
+ /* text-decoration: underline; */
 }
 
 /* article sizes: */
@@ -68,4 +102,16 @@ article{
   height: 50vh;
   padding-left: 30%;
   padding-right: 30%;
+}
+
+p{
+  font-family: roboto;
+}
+
+/* project photo */
+
+.Project1 .Project2 .Project3{
+  background-image: url("image_preview.jpg");
+  width: 15%;
+  height: : 15vh;
 }
