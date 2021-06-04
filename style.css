@@ -63,6 +63,53 @@ html, body {
   color: white;
 }
 
+/* contact bar */
+
+.Contact-Bar{
+  padding-top: 5%;
+
+
+
+}
+.Contact-Bar a {
+  display: block;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 15px;
+  width: 100%;
+  height: 15%;
+  color: white;
+  font-size: 20px;
+
+}
+
+
+i{
+  font-family: roboto;
+}
+
+/* camera */
+.Icons img{
+  width:15%; /* you can use % */
+  height: auto;
+}
+
+.camera{
+  padding-left: -10%;
+  transform: rotate(-15deg);
+}
+
+.coding{
+
+}
+
+div{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: space-between;
+
+}
 /* header */
 
 header{
@@ -99,19 +146,11 @@ h2{
 /* article sizes: */
 article{
   width: 100%;
-  height: 50vh;
+  height: 25vh;
   padding-left: 30%;
   padding-right: 30%;
 }
 
 p{
   font-family: roboto;
-}
-
-/* project photo */
-
-.Project1 .Project2 .Project3{
-  background-image: url("image_preview.jpg");
-  width: 15%;
-  height: : 15vh;
 }
