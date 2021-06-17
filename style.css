@@ -81,6 +81,7 @@ a{
 }
 
 .Contact{
+  padding-top: 25vh;
   background: #44A1A0;
   color: white;
 }
@@ -88,8 +89,8 @@ a{
 /* contact bar */
 
 .Contact-Bar{
-  display: inline-block;
-  top: 50%;
+  display: block;
+  margin-top: 50vh;
   height: 25vh;
 
 
@@ -99,7 +100,7 @@ a{
 .Contact-Bar a {
   display: block;
   text-align: left;
-  padding-top: 13px;
+
   padding-left: 15px;
   width: 100%;
   height: 20%;
@@ -152,11 +153,6 @@ header{
  h1{
   font-size: 50px;
   font-family: roboto;
-  
-
-  padding-top: 10vh;
-  /* color: black; */
-  text-decoration: underline;
 }
 
 /* titel website */
@@ -174,9 +170,19 @@ h2{
 article{
   width: 100%;
   height: 25vh;
+  padding-top: 10vh;
   padding-left: 30%;
   padding-right: 30%;
 }
+
+article .Projects{
+  width: 100%;
+  height: 25vh;
+  padding-top: 25vh;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
 
 p{
   font-family: roboto;
@@ -185,13 +191,14 @@ p{
 /* iframe */
 
 iframe{
-  z-index: 1000000 !important;
-  width: 38%;
+
+  width: 100%;
+  height: 50vh;
+
 }
 
-/* projects */
+/* badges */
 
-.Iframe{
- width: 100%;
- display: block;
+.Badges{
+
 }
